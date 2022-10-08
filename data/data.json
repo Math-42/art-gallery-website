@@ -1,0 +1,192 @@
+[
+	{
+		"name": "Apollo and Aurora",
+		"year": 1671,
+		"description": "Largely forgotten today, De Lairesse was celebrated in his lifetime as a painter and advocate for an idealizing manner based on the study of classical antiquity. This work, likely destined to hang over the mantelpiece in a grand Amsterdam home, depicts the sun god consorting with the goddess of the dawn, a popular subject in French and Italian painting at the time. The attractively individualized young faces have led to speculation that they may be disguised portraits of a newly married couple.",
+		"source": "https://www.metmuseum.org/art/collection/search/436843",
+		"artist": {
+			"image": "./assets/apollo-and-aurora/artist.jpg",
+			"name": "Gerard de Lairesse",
+			"description": "Originally from Liege, artist Gerard de Lairesse (1641-1711) came to Amsterdam in 1667. Rembrandt was a major influence at first; later, he became interested in French neoclassical art. He applied these new ideas to his work, mainly painting themes from Antiquity in a clear style. De Lairesse produced numerous wall hangings and ceiling paintings on canvas featuring deceptively realistc trompe-l'oeil scenes. After De Lairesse lost his sight around 1690, he concentrated on art theory. The blind artist gave lectures, which he published in two volumes: Grondlegginge der teekenkonst (1701; translated as A Treatise of the Art of Drawing) and Het groot schilderboeck (1707; translated as The Principles of Drawing). Lairesse’s writings had considerable impact in the 18th century, not least on artist Jacob de Wit."
+		},
+		"images": {
+			"thumbnail": "./assets/apollo-and-aurora/thumbnail.jpg",
+			"gallery": "./assets/apollo-and-aurora/gallery.jpg"
+		}
+	},
+	{
+		"name": "The North Cape by Moonlight",
+		"year": 1848,
+		"description": "Balke visited the North Cape only once, in 1832, but the experience became a touchstone of his imagination for the rest of his life. The tenebrous palette and expressive brushwork seen in this moonlit view are characteristic of Balke’s mature style, which stands in contrast to the more restrained naturalism of his mentor Johan Christian Dahl. When this painting (or another version) was exhibited in Oslo in the fall of 1848, a critic wrote that it \"claims our interest, both for the nature of the subject itself and the singularity of the perception of the chosen moment.\"",
+		"source": "https://www.metmuseum.org/art/collection/search/441379",
+		"artist": {
+			"image": "./assets/the-north-cape-by-moonlight/artist.jpg",
+			"name": "Peder Balke",
+			"description": "Peder Balke (1804–1887) is one of the most original painters of 19th-century Scandinavia. Born on the Norwegian island of Helgøya, he attended art school in Christiania (now Oslo), before studying with painters in Stockholm and Dresden. Balke was one of the very first artists to venture to the far north of his native Norway. In 1832 he visited the distinctive, dramatic and rugged lands of the North Cape, an experience of primal nature so profound that he built his career painting those isolated Arctic Circle seascapes."
+		},
+		"images": {
+			"thumbnail": "./assets/the-north-cape-by-moonlight/thumbnail.jpg",
+			"gallery": "./assets/the-north-cape-by-moonlight/gallery.jpg"
+		}
+	},
+	{
+		"name": "A Winter Landscape with Ice Skaters and an Imaginary Castle",
+		"year": 1620,
+		"description": "The artist’s family fled Flanders to the neighboring Dutch province of Zeeland. In Middelburg he specialized in precious flower pictures and landscapes like this one, where the decorative distribution of trees, the stage scenery of castle, farmhouse, and distant town, and the operatic ensemble of colorful characters seem more Flemish than Dutch.",
+		"source": "https://www.metmuseum.org/art/collection/search/438373",
+		"artist": {
+			"image": "./assets/a-winter-landscape/artist.jpg",
+			"name": "Christoffel van den Berghe",
+			"description": "Christoffel van den Berghe was a Middelburg painter primarily known for his painted landscapes in the tradition of Jan Breughel I and floral still lifes derived from those by his townsman Ambrosius Bosschaert I."
+		},
+		"images": {
+			"thumbnail": "./assets/a-winter-landscape/thumbnail.jpg",
+			"gallery": "./assets/a-winter-landscape/gallery.jpg"
+		}
+	},
+	{
+		"name": "The Dispatch-Bearer",
+		"year": 1879,
+		"description": "Boldini made his debut at the Salon of 1879 with this vignette of contemporary urban life. The partially visible inscription of \"garde républicaine\" on the soldier’s bag indicates that he is delivering correspondence on behalf of the Parisian municipal guard. He has arrived so early that the concierge is still washing the sidewalk; a couple bids a discreet adieu at right. Large spectacles outside an optician’s shop encourage viewers to look closely at the action.",
+		"source": "https://www.metmuseum.org/art/collection/search/435694",
+		"artist": {
+			"image": "./assets/the-dispatch-bearer/artist.jpg",
+			"name": "Christoffel van den Berghe",
+			"description": "Giovanni Boldini (December 31, 1842 - July 11, 1931) was an Italian genre and portrait painter, belonging to the Parisian school. According to a 1933 article in Time magazine, he was known as the \"Master of Swish\" because of his flowing style of painting."
+		},
+		"images": {
+			"thumbnail": "./assets/the-dispatch-bearer/thumbnail.jpg",
+			"gallery": "./assets/the-dispatch-bearer/gallery.jpg"
+		}
+	},
+
+{
+		"name": "A Limier Briquet Hound",
+		"year": 1856,
+		"description": "This painting, made from life about 1856, depicts a dog that belonged to a gentleman known as the Vicomte d'Armaille. It is one of Bonheur's numerous portraits of hunting dogs and pets. This picture may have been used as a preparatory study for Bonheur's painting Gathering for the Hunt (1856; Haggin Museum, Stockton, Calif.) [see O'Brien et al. 1986].",
+		"source": "https://www.metmuseum.org/art/collection/search/435704",
+		"artist": {
+			"image": "./assets/a-limier-briquet-hound/artist.jpg",
+			"name": "Rosa Bonheur",
+			"description": "French painter and sculptor famed for the remarkable accuracy and detail of her pictures featuring animals. Toward the end of her career those qualities were accentuated by a lighter palette and the use of a highly polished surface finish. Bonheur was trained by her father, Raymond Bonheur, an art teacher and a follower of the social theorist Henri de Saint-Simon."
+		},
+		"images": {
+			"thumbnail": "./assets/a-limier-briquet-hound/thumbnail.jpg",
+			"gallery": "./assets/a-limier-briquet-hound/gallery.jpg"
+		}
+	},
+
+{
+		"name": "The Van Moerkerken Family",
+		"year": 1654,
+		"description": "In this portrait of his cousin Hartogh van Moerkerken with his wife, Sibylla, and their son, Ter Borch broke with convention by depicting the wife on the left—traditionally the superior, and male—side of the panel. The composition is asymmetrical, lopsided, and dynamic, and the young husband’s gesture of showing a pocket watch to his wife gives the portrait an element of storytelling. This emotionally convincing depiction of a nuclear family signals a break with the dynastic imagery of previous generations, although an older tradition persists in the three coats of arms clustered in the upper left-hand corner.",
+		"source": "https://www.metmuseum.org/art/collection/search/435716",
+		"artist": {
+			"image": "./assets/the-van-moerkerken-family/artist.jpg",
+			"name": "Gerard ter Borch the Younger",
+			"description": "The most accomplished member of a gifted and well-to-do artistic family, Gerard ter Borch was born in Zwolle in 1617. Probably not long after the death of his mother, Anna Bufken, in 1621, Ter Borch began his training with his father, the draftsman Gerard ter Borch the Elder (1584–1662). He was clearly a precocious pupil: an accomplished drawing he made of a figure seen from behind (Rijksprentenkabinet, Rijksmuseum, Amsterdam) is dated September 25, 1625, when he was only eight years old."
+		},
+		"images": {
+			"thumbnail": "./assets/the-van-moerkerken-family/thumbnail.jpg",
+			"gallery": "./assets/the-van-moerkerken-family/gallery.jpg"
+		}
+	},
+
+  {
+		"name": "Washerwomen",
+		"year": 1768,
+		"description": "Together with Shepherd's Idyll, this painting was probably commissioned by Roslin d'Ivry for the Château d'Hénonville. At the end of his life Boucher painted numerous large decorative canvases, often culling motifs from other paintings and drawings. Several of the figures here seem to be based on Boucher's memory of earlier works.",
+		"source": "https://www.metmuseum.org/art/collection/search/435746",
+		"artist": {
+			"image": "./assets/washerwomen/artist.jpg",
+			"name": "François Boucher",
+			"description": "François Boucher was a member of an extraordinarily talented generation of artists born around 1700 who would dominate French painting for much of the eighteenth century. Heir to the grand manner of seventeenth-century art, Boucher nevertheless created a style and repertory of subject matter that was perfectly compatible with the intimate scale and refined taste of the court of Louis XV (r. 1715–1774) and his maitresse en titre, the marquise de Pompadour (1721–1764). Lavishly patronized and showered with academic honors throughout his career, Boucher came under harsh criticism later in his life, when his ebullient rococo style was attacked as decorative and his gallant iconography condemned as trivial."
+		},
+		"images": {
+			"thumbnail": "./assets/washerwomen/thumbnail.jpg",
+			"gallery": "./assets/washerwomen/gallery.jpg"
+		}
+	},
+
+   {
+		"name": "Study for a Monument to a Princely Figure",
+		"year": 1770,
+		"description": "Boucher followed a long tradition of court artists who supplied designs for all sorts of media and occasions, from wedding decorations to funerary monuments. Oil sketches such as this were often the preferred means of conveying information to both the client and the artisans who would craft the object. Boucher masterfully employs monochrome greys, known as grisaille, to suggest stone paired with what might be intended to be gilt bronze. Slivers of the paper support have been deliberately left visible, creating highlights around the figures.",
+		"source": "https://www.metmuseum.org/art/collection/search/435748",
+		"artist": {
+			"image": "./assets/study-for-a-monument/artist.jpg",
+			"name": "François Boucher",
+			"description": "François Boucher was a member of an extraordinarily talented generation of artists born around 1700 who would dominate French painting for much of the eighteenth century. Heir to the grand manner of seventeenth-century art, Boucher nevertheless created a style and repertory of subject matter that was perfectly compatible with the intimate scale and refined taste of the court of Louis XV (r. 1715–1774) and his maitresse en titre, the marquise de Pompadour (1721–1764). Lavishly patronized and showered with academic honors throughout his career, Boucher came under harsh criticism later in his life, when his ebullient rococo style was attacked as decorative and his gallant iconography condemned as trivial."
+		},
+		"images": {
+			"thumbnail": "./assets/study-for-a-monument/thumbnail.jpg",
+			"gallery": "./assets/study-for-a-monument/gallery.jpg"
+		}
+	},
+
+     {
+		"name": "The Toilette of Venus",
+		"year": 1751,
+		"description": "Boucher executed this painting for Madame de Pompadour, the powerful, official mistress of Louis XV and Boucher’s most significant patron from 1747 until her death in 1764. It originally decorated the bathing apartments (a luxurious suite of three rooms) in Pompadour’s Château de Bellevue. The construction of her château prompted many of the most important commissions of Rococo painting and sculpture. For a subject that became synonymous with both Boucher and Pompadour, the artist devised a summary of the movement’s key features: overt theatricality, voluptuous flesh, and an asymmetrical unfurling of luxurious furniture, fabric, flowers, and pearls.",
+		"source": "https://www.metmuseum.org/art/collection/search/435739",
+		"artist": {
+			"image": "./assets/the-toilette-of-venus/artist.jpg",
+			"name": "François Boucher",
+			"description": "François Boucher was a member of an extraordinarily talented generation of artists born around 1700 who would dominate French painting for much of the eighteenth century. Heir to the grand manner of seventeenth-century art, Boucher nevertheless created a style and repertory of subject matter that was perfectly compatible with the intimate scale and refined taste of the court of Louis XV (r. 1715–1774) and his maitresse en titre, the marquise de Pompadour (1721–1764). Lavishly patronized and showered with academic honors throughout his career, Boucher came under harsh criticism later in his life, when his ebullient rococo style was attacked as decorative and his gallant iconography condemned as trivial."
+		},
+		"images": {
+			"thumbnail": "./assets/the-toilette-of-venus/thumbnail.jpg",
+			"gallery": "./assets/the-toilette-of-venus/gallery.jpg"
+		}
+	},
+
+  {
+		"name": "Catharine Lorillard Wolfe (1828–1887)",
+		"year": 1876,
+		"description": "The chic satin evening gown that collector and philanthropist Catharine Lorillard Wolfe donned for portrait sittings in Paris belies her reputation as \"quiet and unassuming.\" Wolfe, the first female benefactor of The Met, was said to be the richest unmarried woman in the United States. Her cousin John Wolfe encouraged her patronage of Cabanel, a celebrated society portraitist and genre painter, and other preeminent European academic artists. She bequeathed this portrait, amid numerous artworks, to the museum in 1887 along with an acquisitions endowment—a gift heralded by the press as greatly elevating the profile of public collections of modern art in New York.",
+		"source": "https://www.metmuseum.org/art/collection/search/435830",
+		"artist": {
+			"image": "./assets/catharine-lorillard/artist.jpg",
+			"name": "Alexandre Cabanel",
+			"description": "Alexandre Cabanel was one of mid-nineteenth France’s most well respected academic artists. During his lifetime, his reputation encompassed all types of painting, from portraits to religious scenes, and large interior décorations.  Not surprisingly, this distinguished career began with a precociously early display of artistic talent."
+		},
+		"images": {
+			"thumbnail": "./assets/catharine-lorillard/thumbnail.jpg",
+			"gallery": "./assets/catharine-lorillard/gallery.jpg"
+		}
+	},
+
+  {
+		"name": "The Birth of Venus",
+		"year": 1875,
+		"description": "The first version of Cabanel's Birth of Venus (Musée d'Orsay, Paris) created a sensation at the Salon of 1863, which was dubbed the \"Salon of the Venuses\" owing to the number of alluring nudes on view. The Salon picture was purchased by Napoleon III for his personal collection. In 1875, New Yorker John Wolfe commissioned the present, slightly smaller, replica from Cabanel. The composition embodies ideals of academic art: mythological subject, graceful modeling, silky brushwork, and perfected form. This style was perennially popular with collectors, even as it was challenged by artists seeking a more personal interpretation of truth to nature, such as Courbet.",
+		"source": "https://www.metmuseum.org/art/collection/search/435831",
+		"artist": {
+			"image": "./assets/the-birth-of-venus/artist.jpg",
+			"name": "Alexandre Cabanel",
+			"description": "Alexandre Cabanel was one of mid-nineteenth France’s most well respected academic artists. During his lifetime, his reputation encompassed all types of painting, from portraits to religious scenes, and large interior décorations.  Not surprisingly, this distinguished career began with a precociously early display of artistic talent."
+		},
+		"images": {
+			"thumbnail": "./assets/the-birth-of-venus/thumbnail.jpg",
+			"gallery": "./assets/the-birth-of-venus/gallery.jpg"
+		}
+	},
+
+
+    {
+		"name": "Echo",
+		"year": 1874,
+		"description": "In Greek mythology, the beautiful nymph Echo is cursed by the goddess Hera and can only repeat the last words said to her. Unable to communicate with the man she loves, Echo retreats to the mountains and pines away until just her voice remains. This painting depicts the nymph with her mouth agape and her hands at her ears as if startled by reverberating sounds. The mannered elegance and polished handling of the figure epitomize the style promoted by the influential French Académie des Beaux-Arts. Nineteenth-century critics often deemed such idealized portrayals of the nude unconvincing, but many viewers preferred them to more realistic depictions, which seemed shockingly indecorous.",
+		"source": "https://www.metmuseum.org/art/collection/search/435829",
+		"artist": {
+			"image": "./assets/echo/artist.jpg",
+			"name": "Alexandre Cabanel",
+			"description": "Alexandre Cabanel was one of mid-nineteenth France’s most well respected academic artists. During his lifetime, his reputation encompassed all types of painting, from portraits to religious scenes, and large interior décorations.  Not surprisingly, this distinguished career began with a precociously early display of artistic talent."
+		},
+		"images": {
+			"thumbnail": "./assets/echo/thumbnail.jpg",
+			"gallery": "./assets/echo/gallery.jpg"
+		}
+	}
+  
+]

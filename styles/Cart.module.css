@@ -1,0 +1,40 @@
+.cartTable {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 4em;
+	background-color: var(--color-grey-9);
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 2;
+}
+
+
+
+.cartTable :nth-child(1) {
+	flex: 1;
+}
+
+.cartTable> :nth-child(2) {
+	flex: 2;
+}
+
+.cartTable> :nth-child(3) {
+	flex: 8;
+
+}
+
+.cartTable :nth-child(4) {
+	flex: 2;
+}
+
+.cartTable :nth-child(5) {
+	flex: 2;
+}
+
+.cartTable :nth-child(6) {
+	flex: 2;
+}

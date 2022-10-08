@@ -1,0 +1,60 @@
+.figure {
+	position: relative;
+	opacity: 1;
+	transition: opacity 0.2s linear;
+}
+
+.figure:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.caption {
+	color: var(--color-white);
+	position: absolute;
+	bottom: 0;
+	padding: 1.4rem;
+	text-align: left;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.85));
+}
+
+.caption p {
+	font-size: 1.125rem;
+	color: rgba(255,255,255,0.75);
+}
+
+.caption :last-child {
+	display: flex;
+	align-items: center;
+	white-space: pre-wrap;
+}
+
+.caption h2 {
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: normal;
+	margin-bottom: 0.4374rem;
+	white-space: pre-line;
+}
+
+.figure:hover .cartIcon {
+	display: flex;
+}
+
+.cartIcon {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	justify-content: center;
+	align-items: center;
+	right: 0;
+	margin: 1.4rem;
+	color: var(--color-grey-1);
+	font-size: 1.8em;
+	cursor: pointer;
+}
+
+.cartIcon:hover {
+	color: var(--color-white);
+}

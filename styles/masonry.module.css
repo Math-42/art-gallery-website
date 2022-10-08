@@ -1,0 +1,27 @@
+.m {
+	display: -webkit-box;
+	/* Not needed if autoprefixing */
+	display: -ms-flexbox;
+	/* Not needed if autoprefixing */
+	display: flex;
+	margin-left: -25px;
+	/* gutter size offset */
+	width: auto;
+}
+
+.mc {
+	padding-left: 25px;
+	/* gutter size */
+	background-clip: padding-box;
+}
+
+.mc > li {
+	margin-bottom: 25px;
+}
+
+/* Style your items */
+.mc>div {
+	/* change div to reference your elements you put in <Masonry> */
+	background: grey;
+	margin-bottom: 30px;
+}

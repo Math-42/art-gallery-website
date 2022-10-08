@@ -1,0 +1,124 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+    background-color: white;
+    font-size: 0.5em;
+    color: black;
+	width: 100%;
+    font-weight: bold;
+	border-top: 1px solid var(--color-grey-9);
+}
+
+.footerLeftSide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLeftSide>a>div {
+    margin-right: 16px !important;
+}
+
+.footerData {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.829);
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-size: 10px;
+}
+
+.socialIconContainer {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 212px;
+}
+
+.socialIcon {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    height: 24px;
+	cursor: pointer;
+}
+
+.languageSelector {
+    font-size: 14px;
+    list-style: none;
+}
+
+.languageSelector ul {
+    padding: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.languageSelector ul >:last-child {
+    border: none;
+}
+
+.languageSelector ul >:nth-child(2) {
+	font-weight: bolder;
+}
+
+.languageSelector li {
+
+    font-weight:lighter;
+    cursor: pointer;
+    text-align: center;
+    width: 5rem;
+    margin: 0px;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-right: 1px solid rgb(0, 0, 0);
+
+}
+
+.languageSelector li>a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.languageSelector li:hover {
+
+    font-weight: 800;
+}
+
+#zenithCopyright {
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+
+@media screen and (max-width: 960px) {
+    .footerData {
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5em 6em 1.5em 6em;
+    }
+
+    .footerLeftSide {
+        flex-direction: column;
+    }
+
+    .footerRightSide {
+        margin-top: 1.5em;
+    }
+
+    .languageSelector ul {
+        margin-top: 24px;
+        margin-bottom: 0px;
+    }
+}

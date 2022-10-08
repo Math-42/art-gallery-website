@@ -1,26 +1,143 @@
-html,
+:root {
+	--color-black: #000;
+	--color-grey-1: #7D7D7D;
+	--color-grey-9: #E5E5E5;
+	--color-grey-10: #F3F3F3;
+	--color-white: #FFF;
+	--max-width: 88rem;
+	--tablet-min: 700;
+	--laptop-min: 1000;
+	--desktop-min: 1250;
+
+	--tablet-up: calc(--tablet-min / 16)rem;
+	--laptop-up: calc(--laptop-min / 16)rem;
+	--desktop-up: calc(--desktop-min / 16)rem;
+}
+
+/* Box sizing rules */
+html {
+	box-sizing: border-box;
+	overflow-y: scroll;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+
+/* Set core body defaults */
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	position: absolute;
+	min-height: 100vh;
+	min-width: 100vw;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+/* Make images easier to work with */
+img,
+picture {
+	max-width: 100%;
+	display: block;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+ul,
+li {
+	list-style-type: none;
+	padding: 0;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+	html:focus-within {
+		scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		j-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+body {
+	font-family: 'Libre Baskerville', serif;
+	color: var(--color-black);
+	overflow-x: hidden;
+	position: relative;
+}
+
+a:focus,
+button:focus {
+	outline: 2px dashed red;
+	outline-offset: 4px;
+}
+
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible) {
+	outline: none;
+}
+
+
+#__next {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	top: 14vh;
+	width: 100%;
+	min-height: 100vh;
+	padding-right: 14%;
+	padding-left: 14%;
+}
+
+main {
+	/* padding: 1em; */
+	width: 100%;
+	height: 100%;
+}
+
+hr {
+	margin: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	border: 1px solid var(--color-grey-9);
 }

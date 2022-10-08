@@ -1,0 +1,54 @@
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.container h1 {
+	font-weight: lighter;
+	margin-bottom: 1em;
+	letter-spacing: 2px;
+	width: 35%;
+}
+
+.container img {
+	height: 500px;
+	width: 100%;
+	object-fit: cover;
+	object-position: left bottom;
+}
+
+.figure {
+	position: relative;
+	opacity: 1;
+	transition: opacity 0.2s linear;
+}
+
+.figure:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.caption {
+	color: var(--color-white);
+	position: absolute;
+	bottom: 0;
+	padding: 2rem;
+	text-align: right;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.85));
+}
+
+.caption p {
+	letter-spacing: 2px;
+	font-size: 1.425rem;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.caption h2 {
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 3.5rem;
+	line-height: normal;
+	margin-bottom: 0.44rem;
+	white-space: pre-line;
+}

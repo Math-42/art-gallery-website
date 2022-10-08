@@ -1,0 +1,65 @@
+.cartTable {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: var(--color-grey-10);
+	color: black;
+	flex-direction: row;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 2;
+	flex-grow: 1;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid var(--color-grey-9);	
+}
+
+.cartTable h1 {
+	font-size: 26px;
+	margin-bottom:2px;
+	line-height: 1;
+	font-weight: lighter;
+}
+
+.cartTable input {
+	max-width: 4em;
+	text-align: right;
+}
+
+.cartTable div p {
+	font-size: 18px;
+	font-weight: bold;
+	color: var(--color-grey-1);
+}
+
+.cartTable :nth-child(1) {
+	flex:1;
+	cursor: pointer;
+}
+
+.cartTable> :nth-child(2) {
+	flex: 2;
+}
+
+.cartTable> :nth-child(3) {
+	flex: 8;
+
+}
+
+.cartTable :nth-child(4) {
+	flex: 2;
+}
+
+.cartTable :nth-child(5) {
+	flex: 2;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.cartTable :nth-child(6) {
+	flex: 2;
+}
