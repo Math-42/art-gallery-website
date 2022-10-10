@@ -19,6 +19,13 @@ export default function Cart(props) {
 			<Cartline product={data[0]} />
 			<Cartline product={data[1]} />
 			<Cartline product={data[2]} />
+			<div className={styles.cartFooter}>
+				<div>
+					<input type="text" />
+					<button>Aplicar cupom</button>
+				</div>
+				<button>Finalizar compra</button>
+			</div>
 		</>
 	)
 }

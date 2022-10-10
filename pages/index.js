@@ -2,20 +2,37 @@ import Highlights from 'components/highlights/Highlights'
 import Page from 'components/page/Page'
 import Welcome from 'components/welcome/Welcome'
 import data from 'data/data.json'
+import styles from "styles/Home.module.css"
 
 export default function Home() {
+	let highlight_arts = data.filter(art => art.artist.name == "Gustave Courbet")
 	return (
 		<>
-			<Page>
+			<Page name="">
 				<Welcome welcome="A melhor curadoria de arte para sua casa, escritório e coleção"
 					description={{
-						title: "A winter landscape",
-						subtitle: "Click para saber mais"
+						title: "Burial at Ornans",
+						subtitle: "Artista em foco"
 					}}
-					image="./assets/a-winter-landscape/gallery.jpg" />
+					image="./assets/highlight.jpg" />
+
 				<hr />
-				<Highlights arts={data} />
+				<div className={styles.artist}>
+					<img src='./assets/artist.jpg'/>
+					<div>
+						<h1>
+							Gustave Coubert
+						</h1>
+						<p>
+							{highlight_arts[0].artist.description}
+						</p>
+					</div>
+				</div>
 				<hr />
+						<h1>
+							Obras do artista	
+						</h1>
+				<Highlights arts={highlight_arts} />
 			</Page>
 		</>
 	)

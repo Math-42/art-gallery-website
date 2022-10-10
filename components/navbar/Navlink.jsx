@@ -2,10 +2,10 @@ import Link from "next/link"
 import React from "react"
 import styles from "styles/navbar.module.css"
 
-export default function Navlink({link, text}) {
+export default function Navlink({link, text, currPage}) {
 	return (
 		<>
-			<div className={styles.navlinks}>
+			<div className={((currPage != link )? styles.navlinks : styles.navlinksDisable)} >
 				<Link href={`/${link}`}>
 					<a>{text}</a>
 				</Link>

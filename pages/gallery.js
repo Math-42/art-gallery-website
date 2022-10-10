@@ -5,7 +5,7 @@ import MasonGrid from 'components/gallery/MasonGrid';
 export default function Gallery() {
 	return (
 		<>
-			<Page>
+			<Page name="gallery">
 				<MasonGrid data={data} breakpoints={4} />
 			</Page>
 

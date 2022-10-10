@@ -3,16 +3,32 @@ import Page from 'components/page/Page';
 import styles from "styles/productPage.module.css";
 import { FaCartArrowDown, FaTags } from 'react-icons/fa';
 import MasonGrid from 'components/gallery/MasonGrid';
+import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import dynamic from 'next/dynamic';
 
-export default function Gallery(props) {
+function Gallery(props) {
 	let product = props.params.product;
 	product = data.filter(data => data.name === product)[0];
 	const same_artist = data.filter(art => (art.artist.name == product.artist.name && art.name != product.name));
 	const sorted = data.sort(() => 0.5 - Math.random());
 	const random = sorted.slice(0, 10);
+	const notify = () => {
+		toast.success("Item adicionado!", {
+			position: "bottom-right",
+			autoClose: 4000,
+			hideProgressBar: false,
+			closeOnClick: true,
+			pauseOnHover: true,
+			draggable: true,
+			progress: undefined,
+			theme: "light",
+		});
+	}
+
 	return (
 		<>
-			<Page>
+			<Page name="product">
 				<div className={styles.productContainer}>
 					<div className={styles.productHeader}>
 						<h1>{product.name} </h1>
@@ -25,7 +41,7 @@ export default function Gallery(props) {
 						<article>
 							<p>{product.description}</p>
 							<p className={styles.priceTag}><FaTags /> {" " + `${Math.sqrt(product.year * 100).toFixed(2)} R$`}</p>
-							<div>
+							<div onClick={notify}>
 								<p>Comprar</p>
 								<FaCartArrowDown />
 							</div>
@@ -41,10 +57,10 @@ export default function Gallery(props) {
 
 					same_artist.length > 0 ?
 						<>< hr />
-						<div className={styles.subsection}>
-							<h2>Outras obras do mesmo artista</h2>
-							<MasonGrid data={same_artist} breakpoints={same_artist.length < 4 ? 3 : 4} />
-						</div></> : null
+							<div className={styles.subsection}>
+								<h2>Outras obras do mesmo artista</h2>
+								<MasonGrid data={same_artist} breakpoints={4} />
+							</div></> : null
 				}
 				<hr />
 				<div className={styles.subsection}>
@@ -68,3 +84,6 @@ export async function getStaticPaths() {
 
 	return { paths, fallback: false }
 }
+export default dynamic(() => Promise.resolve(Gallery), {
+	ssr: false
+})

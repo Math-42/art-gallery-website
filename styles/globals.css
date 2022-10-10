@@ -14,6 +14,15 @@
 	--desktop-up: calc(--desktop-min / 16)rem;
 }
 
+@font-face {
+	font-family: 'Avenir';
+	src: url('../avenir_ff/AvenirLTStd-Black.otf');
+	src: url('../avenir_ff/AvenirLTStd-Book.otf');
+	src: url('../avenir_ff/AvenirLTStd-Roman.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
 /* Box sizing rules */
 html {
 	box-sizing: border-box;
@@ -47,7 +56,6 @@ dd {
 body {
 	position: absolute;
 	min-height: 100vh;
-	min-width: 100vw;
 	text-rendering: optimizeSpeed;
 	line-height: 1.5;
 }
@@ -99,7 +107,7 @@ select {
 }
 
 body {
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Avenir';
 	color: var(--color-black);
 	overflow-x: hidden;
 	position: relative;
@@ -118,13 +126,12 @@ button:focus:not(:focus-visible) {
 
 
 #__next {
-	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	top: 14vh;
+	margin-top: 14vh; 
 	width: 100%;
-	min-height: 100vh;
+	min-height: 85vh;
 	padding-right: 14%;
 	padding-left: 14%;
 }

@@ -1,11 +1,13 @@
 .footer {
     display: flex;
+	position:absolute;
+	bottom: 0;
     justify-content: space-between;
 	align-items: center;
     background-color: white;
     font-size: 0.5em;
     color: black;
-	width: 100%;
+	width: 79vw;
     font-weight: bold;
 	border-top: 1px solid var(--color-grey-9);
 }
@@ -15,6 +17,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+	
 }
 
 .footerLeftSide>a>div {
@@ -32,8 +35,6 @@
 }
 
 .socialIconContainer {
-    margin-top: 16px;
-    margin-bottom: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,13 +49,19 @@
 }
 
 .languageSelector {
+	display: flex;
+	justify-content: center;
+	align-items: center;
     font-size: 14px;
     list-style: none;
+	margin: none;
+	padding: none;
+	height: 2em;
 }
 
 .languageSelector ul {
     padding: 0px;
-    margin-top: 0px;
+    margin: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -93,8 +100,7 @@
 }
 
 #zenithCopyright {
-    font-size: 12px;
-    margin-bottom: 1px;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 960px) {

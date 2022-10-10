@@ -4,8 +4,7 @@ import Page from 'components/page/Page'
 export default function Home() {
 	return (
 		<>
-			<Page>
-				<h1> Carrinho </h1>
+			<Page name="cart">
 				<Cart />
 			</Page>
 		</>

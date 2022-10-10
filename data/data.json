@@ -51,7 +51,7 @@
 		"source": "https://www.metmuseum.org/art/collection/search/435694",
 		"artist": {
 			"image": "./assets/the-dispatch-bearer/artist.jpg",
-			"name": "Christoffel van den Berghe",
+			"name": "Giovanni Boldini",
 			"description": "Giovanni Boldini (December 31, 1842 - July 11, 1931) was an Italian genre and portrait painter, belonging to the Parisian school. According to a 1933 article in Time magazine, he was known as the \"Master of Swish\" because of his flowing style of painting."
 		},
 		"images": {
@@ -186,6 +186,252 @@
 		"images": {
 			"thumbnail": "./assets/echo/thumbnail.jpg",
 			"gallery": "./assets/echo/gallery.jpg"
+		}
+	},
+
+
+      {
+		"name": "Alphonse Promayet (1822–1872)",
+		"year": 1851,
+		"description": "Promayet, a violinist who was a childhood friend and schoolmate of Courbet's, appears in several paintings by the artist. Here, he holds his instrument while adopting a soulful expression befitting a struggling musician. This picture served as the model for Promayet's likeness in The Painter’s Studio of 1855 (Musée d'Orsay, Paris). Courbet borrowed it back from the sitter, as he did many other portraits used for the life-size canvas.",
+		"source": "https://www.metmuseum.org/art/collection/search/436008",
+		"artist": {
+			"image": "./assets/alphonse-promayet/artist.jpg",
+			"name": "Gustave Courbet",
+			"description": "Gustave Courbet was a French painter and leader of the Realist movement. Courbet rebelled against the Romantic painting of his day, turning to everyday events for his subject matter. His huge shadowed canvases with their solid groups of figures, such as The Artist’s Studio (1854–55), drew sharp criticism from the establishment. From the 1860s a more sensuous and colourful manner prevailed in his work."
+		},
+		"images": {
+			"thumbnail": "./assets/alphonse-promayet/thumbnail.jpg",
+			"gallery": "./assets/alphonse-promayet/gallery.jpg"
+		}
+	},
+
+
+       {
+		"name": "Jo, La Belle Irlandaise",
+		"year": 1866,
+		"description": "The \"beautiful Irishwoman\" depicted in this painting is Joanna Hiffernan (born 1842/43), mistress and model of the artist James McNeill Whistler (1834–1903), and perhaps subsequently Courbet’s lover. Although dated 1866, the picture was likely undertaken in 1865, when the two men painted together at the French seaside resort of Trouville; Courbet wrote of \"the beauty of a superb redhead whose portrait I have begun.\" He would paint three repetitions with minor variations.",
+		"source": "https://www.metmuseum.org/art/collection/search/436001",
+		"artist": {
+			"image": "./assets/la-belle/artist.jpg",
+			"name": "Gustave Courbet",
+			"description": "Gustave Courbet was a French painter and leader of the Realist movement. Courbet rebelled against the Romantic painting of his day, turning to everyday events for his subject matter. His huge shadowed canvases with their solid groups of figures, such as The Artist’s Studio (1854–55), drew sharp criticism from the establishment. From the 1860s a more sensuous and colourful manner prevailed in his work."
+		},
+		"images": {
+			"thumbnail": "./assets/la-belle/thumbnail.jpg",
+			"gallery": "./assets/la-belle/gallery.jpg"
+		}
+	},
+
+  
+       {
+		"name": "A Brook in the Forest",
+		"year": 1877,
+		"description": "This landscape is similar to a painting dated 1868, Roe Deer at a Stream (Kimbell Art Museum, Fort Worth, Texas). It may be a preliminary sketch for, or a later variant of, the larger painting.",
+		"source": "https://www.metmuseum.org/art/collection/search/436010",
+		"artist": {
+			"image": "./assets/a-brook/artist.jpg",
+			"name": "Gustave Courbet",
+			"description": "Gustave Courbet was a French painter and leader of the Realist movement. Courbet rebelled against the Romantic painting of his day, turning to everyday events for his subject matter. His huge shadowed canvases with their solid groups of figures, such as The Artist’s Studio (1854–55), drew sharp criticism from the establishment. From the 1860s a more sensuous and colourful manner prevailed in his work."
+		},
+		"images": {
+			"thumbnail": "./assets/a-brook/thumbnail.jpg",
+			"gallery": "./assets/a-brook/gallery.jpg"
+		}
+	},
+
+    
+       {
+		"name": "Marine: The Waterspout",
+		"year": 1870,
+		"description": "Courbet first witnessed a waterspout at Trouville, a village on the Channel Coast, in 1865 or 1866. This dramatic phenomenon, a tornado at sea, occurs when temperature differences in the air create a whirling spiral of wind and water. Courbet first painted the subject in 1866 (Philadelphia Museum of Art). The present picture features the cliffs of Étretat, as does a second, undated version of the composition (Musée des Beaux-Arts, Dijon).",
+		"source": "https://www.metmuseum.org/art/collection/search/436006",
+		"artist": {
+			"image": "./assets/marine-the-waterspout/artist.jpg",
+			"name": "Gustave Courbet",
+			"description": "Gustave Courbet was a French painter and leader of the Realist movement. Courbet rebelled against the Romantic painting of his day, turning to everyday events for his subject matter. His huge shadowed canvases with their solid groups of figures, such as The Artist’s Studio (1854–55), drew sharp criticism from the establishment. From the 1860s a more sensuous and colourful manner prevailed in his work."
+		},
+		"images": {
+			"thumbnail": "./assets/marine-the-waterspout/thumbnail.jpg",
+			"gallery": "./assets/marine-the-waterspout/gallery.jpg"
+		}
+	},
+
+  
+    
+       {
+		"name": "River and Rocks",
+		"year": 1877,
+		"description": "This picture dates to the last years of Courbet’s life, from 1873 to 1877, which he spent as an expatriate in Switzerland. Like many landscapes that he produced at this time, it is a variation on the artist’s earlier depictions of the beloved terrain of his native France. In order to pay his debts and to meet the growing demand for his work, Courbet often turned to members of his studio for assistance with such canvases. The present painting has been associated with the hand of his student Marcel Ordinaire (1848–1896).",
+		"source": "https://www.metmuseum.org/art/collection/search/436020",
+		"artist": {
+			"image": "./assets/river-and-rocks/artist.jpg",
+			"name": "Gustave Courbet",
+			"description": "Gustave Courbet was a French painter and leader of the Realist movement. Courbet rebelled against the Romantic painting of his day, turning to everyday events for his subject matter. His huge shadowed canvases with their solid groups of figures, such as The Artist’s Studio (1854–55), drew sharp criticism from the establishment. From the 1860s a more sensuous and colourful manner prevailed in his work."
+		},
+		"images": {
+			"thumbnail": "./assets/river-and-rocks/thumbnail.jpg",
+			"gallery": "./assets/river-and-rocks/gallery.jpg"
+		}
+	},
+
+    
+    
+       {
+		"name": "The Source",
+		"year": 1862,
+		"description": "Rejecting the convention of showing an idealized, statuesque female figure based on classical models, in this work Courbet dropped the trappings of an academic allegory or, indeed, of a picture with a high-minded pretext. His picture of a woman embracing a cascade of water may have been a response to a work by Ingres exhibited in Paris the previous year, which depicts a hyper-idealized nude holding a jar from which water pours as an allusion to spring or a river source.",
+		"source": "https://www.metmuseum.org/art/collection/search/436022",
+		"artist": {
+			"image": "./assets/the-source/artist.jpg",
+			"name": "Gustave Courbet",
+			"description": "Gustave Courbet was a French painter and leader of the Realist movement. Courbet rebelled against the Romantic painting of his day, turning to everyday events for his subject matter. His huge shadowed canvases with their solid groups of figures, such as The Artist’s Studio (1854–55), drew sharp criticism from the establishment. From the 1860s a more sensuous and colourful manner prevailed in his work."
+		},
+		"images": {
+			"thumbnail": "./assets/the-source/thumbnail.jpg",
+			"gallery": "./assets/the-source/gallery.jpg"
+		}
+	},
+
+
+      
+    
+       {
+		"name": "An Eruption of Vesuvius",
+		"year": 1824,
+		"description": "Dahl visited Vesuvius just before Christmas 1820, to witness its eruptions at close-hand. He immediately made an oil sketch (Statens Museum for Kunst, Copenhagen) that served as the basis for the present work, completed four years later for Prince Christian Frederik, later King Christian VIII of Denmark. Vesuvius had attracted artists and Grand Tourists alike since the rediscovery of Pompeii in the mid-eighteenth century, offering a vision of the Sublime that served as a counterpoint to the austerity of Neoclassicism.",
+		"source": "https://www.metmuseum.org/art/collection/search/438159",
+		"artist": {
+			"image": "./assets/an-eruption/artist.jpg",
+			"name": "Johan Christian Dahl",
+			"description": "Johan Christian Dahl was Norwegian Romantic painter known for his depictions of landscapes in Scandinavia and Germany. Dahl sought to convey the profundity he felt before nature through his paintings. Born Johan Christian Claussen Dahl on February 24, 1788 in Bergen, Norway, he grew up in a poor family his artistic talent was recognized when he was teenager. Dahl went on to study under Johan Georg Müller in Bergen and later at the Royal Danish Academy of Fine Arts in Copenhagen."
+		},
+		"images": {
+			"thumbnail": "./assets/an-eruption/thumbnail.jpg",
+			"gallery": "./assets/an-eruption/gallery.jpg"
+		}
+	},
+
+
+        
+    
+       {
+		"name": "Copenhagen Harbor by Moonlight",
+		"year": 1846,
+		"description": "Since the early nineteenth-century, the waterfront ship and lumber yard depicted in this view has been known as Larsens Plads, or Larsen’s Place, after its founder, Lars Larsen. Dahl first painted this prospect in 1816 (Kurpfälzisches Museum, Heidelberg), but in reprising it for the present work he doubled the size of the canvas, omitting incidental details and heightening its atmospheric effect. This placid scene, conceived as the pendant to a far wilder, natural one, Tyrolean Landscape with a Waterfall (1823; private collection), remained unsold at the artist’s death.",
+		"source": "https://www.metmuseum.org/art/collection/search/439343",
+		"artist": {
+			"image": "./assets/copenhagen-harbor/artist.jpg",
+			"name": "Johan Christian Dahl",
+			"description": "Johan Christian Dahl was Norwegian Romantic painter known for his depictions of landscapes in Scandinavia and Germany. Dahl sought to convey the profundity he felt before nature through his paintings. Born Johan Christian Claussen Dahl on February 24, 1788 in Bergen, Norway, he grew up in a poor family his artistic talent was recognized when he was teenager. Dahl went on to study under Johan Georg Müller in Bergen and later at the Royal Danish Academy of Fine Arts in Copenhagen."
+		},
+		"images": {
+			"thumbnail": "./assets/copenhagen-harbor/thumbnail.jpg",
+			"gallery": "./assets/copenhagen-harbor/gallery.jpg"
+		}
+	},
+
+          
+    
+       {
+		"name": "The Rehearsal of the Ballet Onstage",
+		"year": 1874,
+		"description": "There are three similar versions of this scene, and their precise relationship has bedeviled scholars for decades. The largest, painted in grisaille (Musée d’Orsay, Paris), appeared in the first Impressionist exhibition in 1874. The two others, tentatively dated the same year, are in the Metropolitan’s collection. This painting probably preceded the version in pastel (29.100.39), which is more freely handled. The importance that Degas attached to the composition is evident in the preparatory drawings that he made for almost every figure, from the dancer scratching her back in the foreground to the woman yawning next to the stage flat.",
+		"source": "https://www.metmuseum.org/art/collection/search/436155",
+		"artist": {
+			"image": "./assets/the-rehearsal/artist.jpg",
+			"name": "Edgar Degas",
+			"description": "Always remembered as an Impressionist, Edgar Degas was a member of the seminal group of Paris artists who began to exhibit together in the 1870s. He shared many of their novel techniques, was intrigued by the challenge of capturing effects of light and attracted to scenes of urban leisure. But Degas's academic training, and his own personal predilection toward Realism, set him apart from his peers, and he rejected the label 'Impressionist' preferring to describe himself as an 'Independent.'"
+		},
+		"images": {
+			"thumbnail": "./assets/the-rehearsal/thumbnail.jpg",
+			"gallery": "./assets/the-rehearsal/gallery.jpg"
+		}
+	},
+
+      
+       {
+		"name": "The Collector of Prints",
+		"year": 1866,
+		"description": "In this scene, cheap, outmoded prints—colored lithographs by the flower painter Pierre-Joseph Redouté—are coupled with a fashionable Tang dynasty horse and Japanese fabrics pinned on the bulletin board to typify an old-fashioned collector, obsessively accumulating an array of artworks. The depiction of individuals, interrupted at tasks amid settings that reveal clues about their character, was developed by Degas in numerous figure paintings of the 1860s and early 1870s.",
+		"source": "https://www.metmuseum.org/art/collection/search/436122",
+		"artist": {
+			"image": "./assets/the-collector/artist.jpg",
+			"name": "Edgar Degas",
+			"description": "Always remembered as an Impressionist, Edgar Degas was a member of the seminal group of Paris artists who began to exhibit together in the 1870s. He shared many of their novel techniques, was intrigued by the challenge of capturing effects of light and attracted to scenes of urban leisure. But Degas's academic training, and his own personal predilection toward Realism, set him apart from his peers, and he rejected the label 'Impressionist' preferring to describe himself as an 'Independent.'"
+		},
+		"images": {
+			"thumbnail": "./assets/the-collector/thumbnail.jpg",
+			"gallery": "./assets/the-collector/gallery.jpg"
+		}
+	},
+
+        
+       {
+		"name": "The Dance Class",
+		"year": 1874,
+		"description": "This work and its variant in the Musée d'Orsay, Paris, represent the most ambitious paintings Degas devoted to the theme of the dance. Some twenty-four women, ballerinas and their mothers, wait while a dancer executes an \"attitude\" for her examination. Jules Perrot, a famous ballet master, conducts the class. The imaginary scene is set in a rehearsal room in the old Paris Opéra, which had recently burned to the ground. On the wall beside the mirror, a poster for Rossini’s Guillaume Tell pays tribute to the singer Jean-Baptiste Faure, who commissioned the picture and lent it to the 1876 Impressionist exhibition.",
+		"source": "https://www.metmuseum.org/art/collection/search/438817",
+		"artist": {
+			"image": "./assets/the-dance-class/artist.jpg",
+			"name": "Edgar Degas",
+			"description": "Always remembered as an Impressionist, Edgar Degas was a member of the seminal group of Paris artists who began to exhibit together in the 1870s. He shared many of their novel techniques, was intrigued by the challenge of capturing effects of light and attracted to scenes of urban leisure. But Degas's academic training, and his own personal predilection toward Realism, set him apart from his peers, and he rejected the label 'Impressionist' preferring to describe himself as an 'Independent.'"
+		},
+		"images": {
+			"thumbnail": "./assets/the-dance-class/thumbnail.jpg",
+			"gallery": "./assets/the-dance-class/gallery.jpg"
+		}
+	},
+
+          
+       {
+		"name": "Virgin and Child",
+		"year": 1620,
+		"description": "At least eight versions of this tender image came out of Van Dyck’s workshop, and this one is at once the finest and least finished example. The deftly fluid brushstrokes loosely follow an incised underdrawing, which must have been traced from a preparatory drawing. Van Dyck would have kept this panel in his studio as a model for more finished paintings by himself and by assistants.",
+		"source": "https://www.metmuseum.org/art/collection/search/436261",
+		"artist": {
+			"image": "./assets/virgin-and-child/artist.jpg",
+			"name": "Anthony van Dyck",
+			"description": "Van Dyck was the most important Flemish painter of the 17th century after Rubens, whose works influenced him when he was young. He also studied and was profoundly influenced by the work of Italian artists, above all, Titian. Van Dyck was an extremely successful portraitist and painter of religious and mythological pictures in Antwerp and Italy. He was also an accomplished draughtsman and etcher. However, he is now best remembered for his elegant representations of Charles I and his court."
+		},
+		"images": {
+			"thumbnail": "./assets/virgin-and-child/thumbnail.jpg",
+			"gallery": "./assets/virgin-and-child/gallery.jpg"
+		}
+	},
+
+
+            
+       {
+		"name": "Study Head of an Old Man with a White Beard",
+		"year": 1620,
+		"description": "Rubens’s practice of using real people as models for figures in his religious and mythological scenes was followed closely in Antwerp by his younger colleagues Jacob Jordaens and Anthony van Dyck. The present picture was once attributed to Rubens, but its comparatively soft forms and textured surfaces are typical of the young Van Dyck and contrast with Rubens’s emphatic modeling and incisive draftsmanship.",
+		"source": "https://www.metmuseum.org/art/collection/search/436260",
+		"artist": {
+			"image": "./assets/study-head/artist.jpg",
+			"name": "Anthony van Dyck",
+			"description": "Van Dyck was the most important Flemish painter of the 17th century after Rubens, whose works influenced him when he was young. He also studied and was profoundly influenced by the work of Italian artists, above all, Titian. Van Dyck was an extremely successful portraitist and painter of religious and mythological pictures in Antwerp and Italy. He was also an accomplished draughtsman and etcher. However, he is now best remembered for his elegant representations of Charles I and his court."
+		},
+		"images": {
+			"thumbnail": "./assets/study-head/thumbnail.jpg",
+			"gallery": "./assets/study-head/gallery.jpg"
+		}
+	},
+
+              
+       {
+		"name": "Portrait of a Woman, Called the Marchesa Durazzo",
+		"year": 1625,
+		"description": "During the six years he spent in Italy (1621–27), Van Dyck was frequently in Genoa, where he painted some of his most magnificent portraits. This sitter is traditionally identified as a member of the patrician Durazzo family. Whereas many of his portraits recall those of his older colleague Rubens, who had also painted in Genoa, this one testifies to Van Dyck’s admiration of the work of the great Venetian painter Titian (ca. 1485/90?–1576). The portrait has suffered from abrasion and relining, flattening its painterly effects.",
+		"source": "https://www.metmuseum.org/art/collection/search/436255",
+		"artist": {
+			"image": "./assets/marchesa-durazzo/artist.jpg",
+			"name": "Anthony van Dyck",
+			"description": "Van Dyck was the most important Flemish painter of the 17th century after Rubens, whose works influenced him when he was young. He also studied and was profoundly influenced by the work of Italian artists, above all, Titian. Van Dyck was an extremely successful portraitist and painter of religious and mythological pictures in Antwerp and Italy. He was also an accomplished draughtsman and etcher. However, he is now best remembered for his elegant representations of Charles I and his court."
+		},
+		"images": {
+			"thumbnail": "./assets/marchesa-durazzo/thumbnail.jpg",
+			"gallery": "./assets/marchesa-durazzo/gallery.jpg"
 		}
 	}
   

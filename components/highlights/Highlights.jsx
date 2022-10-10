@@ -1,8 +1,9 @@
 import MasonGrid from "components/gallery/MasonGrid";
 import React from "react";
 import styles from "styles/Highlights.module.css"
+import dynamic from "next/dynamic";
 
-export default function Highlights(props) {
+function Highlights(props) {
 	return (
 		<>
 			<div className={styles.container}>
@@ -14,3 +15,7 @@ export default function Highlights(props) {
 	)
 
 }
+
+export default dynamic(() => Promise.resolve(Highlights), {
+	ssr: false
+})

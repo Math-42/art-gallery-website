@@ -22,8 +22,8 @@ export default function Footer() {
 						<span id={styles.zenithCopyright}>{"© - 2022 - IHC "}</span>
 					</div>
 				</div>
-				<LanguageSelector />
 			</div>
+				<LanguageSelector />
 			<div className={styles.footerRightSide}>
 				<div className={styles.socialIconContainer}>
 					<a
