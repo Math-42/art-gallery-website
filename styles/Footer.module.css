@@ -50,53 +50,30 @@
 
 .languageSelector {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
+	width: 30%;
     font-size: 14px;
     list-style: none;
+	font-weight: lighter;
 	margin: none;
 	padding: none;
 	height: 2em;
 }
+.languageSelector a {
+	text-decoration: none;
+	color: var(--color-grey-1);
+}
+.languageSelector div {
 
-.languageSelector ul {
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
+	height: 2em;
+    border: 1px solid var(--color-grey-9);
+
 }
 
-.languageSelector ul >:last-child {
-    border: none;
-}
-
-.languageSelector ul >:nth-child(2) {
+.languageSelector :nth-child(3) {
 	font-weight: bolder;
-}
-
-.languageSelector li {
-
-    font-weight:lighter;
-    cursor: pointer;
-    text-align: center;
-    width: 5rem;
-    margin: 0px;
-    padding-left: 1em;
-    padding-right: 1em;
-    border-right: 1px solid rgb(0, 0, 0);
-
-}
-
-.languageSelector li>a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-
-.languageSelector li:hover {
-
-    font-weight: 800;
+	color: black;
 }
 
 #zenithCopyright {

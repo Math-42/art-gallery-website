@@ -4,30 +4,23 @@ import { useRouter } from 'next/router';
 import { languageSelector } from 'styles/Footer.module.css';
 
 export default function LanguageSelector() {
-  const currPage = useRouter().asPath;
-  return (
-    <>
-      <div className={languageSelector}>
-        <ul>
-          <Link href={currPage} locale="pt">
-            <li>
-              Português
-              </li>
-          </Link>
+	const currPage = useRouter().asPath;
+	return (
+		<>
+			<div className={languageSelector}>
+				<Link href={currPage} locale="pt">
+					Português
+				</Link>
+				<div className="vl" />
+				<Link href={currPage} locale="en">
+					English
+				</Link>
 
-          <Link href={currPage} locale="en">
-            <li>
-              English
-              </li>
-          </Link>
-
-          <Link href={currPage} locale="es">
-            <li>
-              Español
-            </li>
-          </Link>
-        </ul>
-      </div>
-    </>
-  );
+				<div className='vl' />
+				<Link href={currPage} locale="es">
+					Español
+				</Link>
+			</div>
+		</>
+	);
 }
