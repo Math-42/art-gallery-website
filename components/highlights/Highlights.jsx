@@ -8,7 +8,7 @@ function Highlights(props) {
 		<>
 			<div className={styles.container}>
 				<div>
-					<MasonGrid data={props.arts} breakpoints={3} />
+					<MasonGrid data={props.arts} breakpoints={4} />
 				</div>
 			</div>
 		</>
