@@ -3,7 +3,8 @@ import Link from "next/link";
 import React from "react";
 import styles from 'styles/navbar.module.css'
 import Navlink from "./Navlink";
-import { BiSearch } from "react-icons/bi"
+import Popup from 'reactjs-popup';
+import Login from "components/login/Login";
 
 export default function Navbar(props) {
 	return (
@@ -11,17 +12,19 @@ export default function Navbar(props) {
 			<div className={styles.container}>
 				<Logo />
 				<div className={styles.navlinksContainer}>
-					<div className={styles.searchBar}>
-						<input type="text" placeholder="BUSCAR" />
-						<div>
-							<BiSearch />
+					<Navlink text="home" link="" />
+					<Navlink text="galeria" link="gallery" />
+					<Navlink text="sobre nós" link=""/>
+
+					<Popup trigger={
+						<div className={styles.navlinks}>
+								<a>Perfil</a>
 						</div>
-					</div>
-					<Navlink currPage={props.page} text="home" link="" />
-					<Navlink currPage={props.page} text="galeria" link="gallery" />
-					<Navlink currPage={props.page} text="sobre nós" link="about-us" />
-					<Navlink currPage={props.page} text="perfil" link="profile" />
-					<Navlink currPage={props.page} text="carrinho" link="cart" />
+					} modal>
+						<Login link="gallery"></Login>
+					</Popup>
+
+					<Navlink text="carrinho" link="cart"/>
 				</div>
 			</div>
 		</>
