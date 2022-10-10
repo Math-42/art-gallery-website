@@ -9,7 +9,7 @@ export default function Home() {
 	return (
 		<>
 			<Page name="">
-				<Welcome welcome="A melhor curadoria de arte para sua casa, escritório e coleção"
+				<Welcome welcome="A melhor curadoria de arte para sua casa, escritório e coleção."
 					description={{
 						title: "Burial at Ornans",
 						subtitle: "Artista em foco"

@@ -1,10 +1,10 @@
 import Logo from "components/logo/Logo";
-import Link from "next/link";
 import React from "react";
 import styles from 'styles/navbar.module.css'
 import Navlink from "./Navlink";
 import Popup from 'reactjs-popup';
 import Login from "components/login/Login";
+import { RiSearchLine } from "react-icons/ri";
 
 export default function Navbar(props) {
 	return (
@@ -12,19 +12,26 @@ export default function Navbar(props) {
 			<div className={styles.container}>
 				<Logo />
 				<div className={styles.navlinksContainer}>
-					<Navlink text="home" link="" />
-					<Navlink text="galeria" link="gallery" />
-					<Navlink text="sobre nós" link=""/>
+					<div className={styles.searchBar}>
+						<input type="text" placeholder="BUSCAR" />
+						<div>
+							<RiSearchLine />
+						</div>
+
+					</div>
+					<Navlink currPage={props.page} text="home" link="" />
+					<Navlink currPage={props.page} text="galeria" link="gallery" />
+					<Navlink currPage={props.page} text="sobre nós" link="about-us" />
 
 					<Popup trigger={
 						<div className={styles.navlinks}>
-								<a>Perfil</a>
+							<a>Perfil</a>
 						</div>
 					} modal>
 						<Login link="gallery"></Login>
 					</Popup>
 
-					<Navlink text="carrinho" link="cart"/>
+					<Navlink currPage={props.page} text="carrinho" link="cart" />
 				</div>
 			</div>
 		</>

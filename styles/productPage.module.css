@@ -53,14 +53,15 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 45%;
+	max-width: 55%;
 	color: var(--color-grey-1);
 	margin-bottom: 2.25rem;
-	font-weight: bold;
-	font-size: 1.2em;
+	font-weight: lighter;
+	font-size: 1.3em;
 	letter-spacing: 1px;
 	line-height: 2;
 	padding: 2em;
+	max-height: 70vh;
 }
 
 .productDisplay article>div {
@@ -109,7 +110,7 @@
 .artist p {
 	margin: 1em;
 	color: var(--color-grey-1);
-	font-weight: bolder;
-	font-size: 16px;
+	font-weight: lighter;
+	font-size: 20px;
 	word-spacing: 2px;
 }

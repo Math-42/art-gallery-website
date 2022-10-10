@@ -10,7 +10,7 @@
 .artist div {
 	max-width: 40%;
 	font-size: 22px;
-	font-weight: bold;
+	font-weight: lighter;
 	letter-spacing: 2px;
 	color: var(--color-grey-1);
 }
