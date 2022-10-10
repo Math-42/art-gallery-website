@@ -28,7 +28,7 @@ export default function RegisterForms({link}) {
                         </div>
                         <div className={styles.formsItem}>
                             <label >CONFIRMAR
-                                <input type="password" name="senha" placeholder= "confirmar senha" className={styles.input}  required />   
+                                <input type="password" name="senha" placeholder= "senha" className={styles.input}  required />   
                             </label>
                         </div>
                         <div className={styles.formsItem}>
