@@ -23,6 +23,26 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Arsenica';
+	src: url("../arsenica/ArsenicaTrial-BoldItalic.ttf");
+	src: url("../arsenica/ArsenicaTrial-Bold.ttf");
+	src: url("../arsenica/ArsenicaTrial-DemiboldItalic.ttf");
+	src: url("../arsenica/ArsenicaTrial-Demibold.ttf");
+	src: url("../arsenica/ArsenicaTrial-ExtraboldItalic.ttf");
+	src: url("../arsenica/ArsenicaTrial-Extrabold.ttf");
+	src: url("../arsenica/ArsenicaTrial-Italic.ttf");
+	src: url("../arsenica/ArsenicaTrial-LightItalic.ttf");
+	src: url("../arsenica/ArsenicaTrial-Light.ttf");
+	src: url("../arsenica/ArsenicaTrial-MediumItalic.ttf");
+	src: url("../arsenica/ArsenicaTrial-Medium.ttf");
+	src: url("../arsenica/ArsenicaTrial-Regular.ttf");
+	src: url("../arsenica/ArsenicaTrial-ThinItalic.ttf");
+	src: url("../arsenica/ArsenicaTrial-Thin.ttf");
+	font-weight: 400;
+	font-style: normal;
+}
+
 /* Box sizing rules */
 html {
 	box-sizing: border-box;
@@ -129,7 +149,8 @@ button:focus:not(:focus-visible) {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 14vh; 
+	margin-top: 14vh;
+	margin-bottom: 14vh;
 	width: 100%;
 	min-height: 85vh;
 	padding-right: 14%;
@@ -146,17 +167,22 @@ hr {
 	margin: 1em;
 	margin-left: 0;
 	margin-right: 0;
-	border: 1px solid var(--color-grey-9);
+	border: none;
+	border-bottom: 1px solid var(--color-grey-9);
 }
 
-.popup-content {  
+.popup-content {
 	position: absolute;
-	margin: auto;  
+	margin: auto;
 	width: 50%;
 	padding: 10px;
 }
 
-.popup-arrow {  color: var(--color-grey-1);}
+.popup-arrow {
+	color: var(--color-grey-1);
+}
 
 
-.popup-overlay {  background: rgba(0, 0, 0, 0.5);}
+.popup-overlay {
+	background: rgba(0, 0, 0, 0.5);
+}

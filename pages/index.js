@@ -3,8 +3,9 @@ import Page from 'components/page/Page'
 import Welcome from 'components/welcome/Welcome'
 import data from 'data/data.json'
 import styles from "styles/Home.module.css"
+import dynamic from 'next/dynamic'
 
-export default function Home() {
+function Home() {
 	let highlight_arts = data.filter(art => art.artist.name == "Gustave Courbet")
 	return (
 		<>
@@ -37,3 +38,7 @@ export default function Home() {
 		</>
 	)
 }
+
+export default dynamic(() => Promise.resolve(Home), {
+	ssr: false
+})

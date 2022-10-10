@@ -17,25 +17,6 @@ export const pageAnimation = {
 }
 
 
-export const slideAnimation = {
-	enter: (direction) => {
-		return {
-			x: direction > 0 ? '100%' : '-100%',
-			opacity: 0,
-		}
-	},
-	center: {
-		x: '0%',
-		opacity: 1,
-	},
-	exit: (direction) => {
-		return {
-			x: direction < 0 ? '100%' : '-100%',
-			opacity: 0,
-		}
-	},
-}
-
 export const galleryAnimation = {
 	hide: {
 		opacity: 0,
@@ -43,9 +24,9 @@ export const galleryAnimation = {
 	show: {
 		opacity: 1,
 		transition: {
-			staggerChildren: 0.25,
+			staggerChildren: 0.04,
 			ease: 'easeOut',
-			delayChildren: 1.5,
+			delayChildren: 0.55,
 		},
 	},
 }
@@ -57,7 +38,7 @@ export const captionAnimation = {
 	show: {
 		opacity: 1,
 		transition: {
-			delay: 5.25,
+			delay: 1.25,
 			duration: 2,
 		},
 	},

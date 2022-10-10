@@ -1,7 +1,4 @@
 .m {
-	display: -webkit-box;
-	/* Not needed if autoprefixing */
-	display: -ms-flexbox;
 	/* Not needed if autoprefixing */
 	display: flex;
 	margin-left: -25px;
