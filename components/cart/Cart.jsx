@@ -3,6 +3,7 @@ import styles from "styles/Cart.module.css"
 import { FaWindowClose } from "react-icons/fa";
 import Cartline from "./Cartline";
 import data from "data/data.json"
+import Link from "next/link";
 
 export default function Cart(props) {
 
@@ -24,7 +25,9 @@ export default function Cart(props) {
 					<input type="text" />
 					<button>Aplicar cupom</button>
 				</div>
-				<button>Finalizar compra</button>
+				<Link href={`/checkout`}>
+					<button>Finalizar compra</button>
+				</Link>
 			</div>
 		</>
 	)

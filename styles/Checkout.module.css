@@ -1,0 +1,219 @@
+.checkout {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: top;
+	width: 100%;
+	margin: auto;
+	letter-spacing: 2px;
+}
+
+.checkoutCol {
+	width: 50%;    
+}
+
+.input {
+	width: 100%;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid var(--color-grey-1);
+}
+
+.inputCVV {
+	width: 40px;
+	outline: none;
+	border: none;
+	margin-right: 2%;
+	border-bottom: 1px solid var(--color-grey-1);
+}
+
+.inputCard {
+	width: 210px;
+	outline: none;
+	border: none;
+	text-align: center;
+	border-bottom: 1px solid var(--color-grey-1);
+}
+
+.inputCardName {
+	width: 210px;
+	outline: none;
+	border: none;
+	text-align: center;
+	border-bottom: 1px solid var(--color-grey-1);
+}
+
+.cvvLabel {
+	font-size: 12px;
+}
+
+.select {
+	width: 100%;
+    background-color: white;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid var(--color-grey-1);
+}
+
+.selectParcelas {
+	width: 100%;
+    background-color: white;
+	outline: none;
+	border: none;
+	margin-left: 5%;
+	border-bottom: 1px solid var(--color-grey-1);
+}
+
+.selectMes {
+	width: 130px;
+    background-color: white;
+	text-align: center;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid var(--color-grey-1);
+}
+
+.selectAno {
+	width: 75px;
+	text-align: center;
+	margin-left: 2%;
+    background-color: white;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid var(--color-grey-1);
+}
+
+.formsContainer {
+    align-items: center;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.formsItem {
+	width: 80%;
+	margin: auto;
+	margin-top: 5%;
+}
+
+.cardFormsItem {
+	width: 90%;
+	margin: auto;
+	margin-top: 5%;
+}
+
+.cardFormsItem label {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.expirationSelectContainer {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.orderTable {
+	display: flex;
+	flex-direction: column;
+    width: 90%;
+    margin-top: 5%;
+}
+
+.tableHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    background-color: var(--color-grey-10);
+}
+
+.tableRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.tableColItem
+{
+	width: 70%;
+}
+
+.tableColTotal
+{
+	text-align: right;
+	width: 45%;
+}
+
+.tableRow:nth-child(2n+1)
+{
+    background-color: var(--color-grey-10);
+}
+
+.payment {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.paymentType {
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 100%;
+}
+
+.paymentType label{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.paymentType input{
+	margin-left: 5%;
+}
+
+.paymentType span{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.boleto {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.boleto h3{
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+.boleto p{
+	text-align: center;
+}
+
+
+.submit {
+	display: flex;
+	flex-direction: row;
+	font-size: 16px;
+	height: 2.4em;
+	margin: auto;
+	width: 30%;
+	cursor: pointer;
+	background-color: white;
+	border: 1px solid var(--color-grey-1);
+	transition: all 0.2s linear ;
+}
+
+.submit:hover {
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 16px;
+	color: white;
+	background-color: black;
+	border: 1px solid black;
+}
