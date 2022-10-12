@@ -41,7 +41,7 @@ export default function Cartao({showDetails,total}) {
                                 <select name="" id="" className={styles.selectMes} >
                                     <option value="0" defaultValue>Mês</option>
                                     { months.map( (month,index) => {
-                                        return <option value={index+1} >{month}</option>
+                                        return <option value={index+1} key={index+1} >{month}</option>
                                     })}
                                 </select>
                                 <select name="" id="" className={styles.selectAno}>
@@ -67,7 +67,7 @@ export default function Cartao({showDetails,total}) {
                         <label>Parcelamento
                             <select name="" id="" className={styles.selectParcelas}>
                                 { payment.map( (p,index) => {
-                                        return <option value={index+1} defaultValue={index==0}>{index+1}x R$ {total.toFixed(2)} (R$ {p})</option>
+                                        return <option key={index+1} value={index+1} defaultValue={index==0}>{index+1}x R$ {total.toFixed(2)} (R$ {p})</option>
                                 })}
                             </select>
                         </label>
