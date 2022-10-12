@@ -4,6 +4,8 @@ import { FaWindowClose } from "react-icons/fa";
 import Cartline from "./Cartline";
 import data from "data/data.json"
 import Link from "next/link";
+import Popup from 'reactjs-popup';
+import Login from "components/login/Login";
 
 export default function Cart(props) {
 
@@ -25,9 +27,11 @@ export default function Cart(props) {
 					<input type="text" />
 					<button>Aplicar cupom</button>
 				</div>
-				<Link href={`/checkout`}>
+				<Popup trigger={
 					<button>Finalizar compra</button>
-				</Link>
+				} modal>
+					<Login link="checkout"></Login>
+				</Popup>
 			</div>
 		</>
 	)

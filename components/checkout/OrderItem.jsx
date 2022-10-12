@@ -6,7 +6,6 @@ export default function OrderItem({itemName,itemQnt,total}) {
     if(itemQnt)
     {
         item = <p className={styles.tableColItem}>{itemName} x{itemQnt}</p>
-        console.log(itemQnt)
     }
     else
     {

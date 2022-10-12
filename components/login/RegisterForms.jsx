@@ -32,7 +32,7 @@ export default function RegisterForms({link}) {
                             </label>
                         </div>
                         <div className={styles.formsItem}>
-                            <Link href={`/${link}`}>
+                            <Link href={`${link}`}>
                                 <input type="submit" value="CADASTRAR" className={styles.submit} />
                             </Link> 
                         </div>

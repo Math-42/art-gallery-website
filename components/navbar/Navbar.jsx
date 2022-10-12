@@ -28,7 +28,7 @@ export default function Navbar(props) {
 							<a>Perfil</a>
 						</div>
 					} modal>
-						<Login link="gallery"></Login>
+						<Login link=''></Login>
 					</Popup>
 
 					<Navlink currPage={props.page} text="carrinho" link="cart" />

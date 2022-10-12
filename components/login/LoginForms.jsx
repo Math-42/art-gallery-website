@@ -23,13 +23,13 @@ export default function LoginForms({ link }) {
 							</label>
 						</div>
 						<div className={styles.formsItem}>
-							<Link href={`/${link}`}>
+							<Link href={`${link}`}>
 								<input type="submit" value="ENTRAR" className={styles.submit} />
 							</Link>
 						</div>
 					</div>
 					<hr className={styles.horizontalSeparator} />
-					<Link href={`/${link}`}>
+					<Link href={`${link}`}>
 						<GoogleButton />
 					</Link>
 				</div>
