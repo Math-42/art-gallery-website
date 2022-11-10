@@ -12,7 +12,7 @@ function Home() {
 			<Page name="">
 				<Welcome welcome="A melhor curadoria de arte para sua casa, escritório e coleção."
 					description={{
-						title: "Burial at Ornans",
+						title: "teste",
 						subtitle: "Artista em foco"
 					}}
 					image="./assets/highlight.jpg" />

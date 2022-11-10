@@ -83,14 +83,13 @@
 	padding-left: 1em;
 	width: 7em;
 	padding-right: 1em;
-	border-bottom: 2px solid var(--color-grey-1);
+	border-bottom: 2px solid var(--color-grey-9);
 }
 
-.searchBar input:focus {
+.searchBar input {
 	text-align: left;
 	width: 30em;
 	color: black;
-	border-bottom: 2px solid black;
 }
 
 .searchBar div {
@@ -98,6 +97,6 @@
 	cursor: pointer;
 }
 
-.searchBar input:focus~div {
+.searchBar input~div {
 	display: flex;
 }

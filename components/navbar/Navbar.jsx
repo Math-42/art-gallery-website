@@ -13,10 +13,10 @@ export default function Navbar(props) {
 				<Logo />
 				<div className={styles.navlinksContainer}>
 					<div className={styles.searchBar}>
-						<input type="text" placeholder="BUSCAR" />
 						<div>
 							<RiSearchLine />
 						</div>
+						<input type="text" placeholder="BUSCAR" />
 
 					</div>
 					<Navlink currPage={props.page} text="home" link="" />
