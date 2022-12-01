@@ -4,15 +4,12 @@ import Welcome from 'components/welcome/Welcome'
 import data from 'data/data.json'
 import styles from "styles/Home.module.css"
 import dynamic from 'next/dynamic'
-import VLibras from 'vlibras-nextjs'
 
 function Home() {
 	let highlight_arts = data.filter(art => art.artist.name == "Gustave Courbet")
 	return (
 		<>
 			<Page name="">
-		{/* only worked in production in tests with nextjs applications maybe you can solve this! */}
-		{process.env.NODE_ENV === "production" && <VLibras forceOnload />}
 				<Welcome welcome="A melhor curadoria de arte para sua casa, escritório e coleção."
 					description={{
 						title: "teste",
