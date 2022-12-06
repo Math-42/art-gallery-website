@@ -10,7 +10,7 @@ export default function Payment({total}) {
 	return (
 		<>
 			<div className={styles.formsContainer}>
-				<h1>Escolha a forma de Pagamento</h1>
+				<h2>Escolha a forma de Pagamento</h2>
 				<div className={styles.payment}>
 					<div className={styles.paymentType}>
 						<label>

@@ -4,10 +4,22 @@ import styles from "styles/productPage.module.css";
 import { FaCartArrowDown, FaTags } from 'react-icons/fa';
 import MasonGrid from 'components/gallery/MasonGrid';
 import React from 'react';
+import { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import dynamic from 'next/dynamic';
 
 function Gallery(props) {
+
+	const size = useWindowSize();
+	let n = 4;
+	if (size.width < 1400)
+		n = 3;
+	if (size.width < 900)
+		n = 2;
+	if (size.width < 500)
+		n = 1;
+
+
 	let product = props.params.product;
 	product = data.filter(data => data.name === product)[0];
 	const same_artist = data.filter(art => (art.artist.name == product.artist.name && art.name != product.name));
@@ -59,13 +71,13 @@ function Gallery(props) {
 						<>< hr />
 							<div className={styles.subsection}>
 								<h2>Outras obras do mesmo artista</h2>
-								<MasonGrid data={same_artist} breakpoints={4} />
+								<MasonGrid data={same_artist} breakpoints={n} />
 							</div></> : null
 				}
 				<hr />
 				<div className={styles.subsection}>
 					<h2>Veja também</h2>
-					<MasonGrid data={random} breakpoints={4} />
+					<MasonGrid data={random} breakpoints={n} />
 				</div>
 			</Page>
 
@@ -87,3 +99,25 @@ export async function getStaticPaths() {
 export default dynamic(() => Promise.resolve(Gallery), {
 	ssr: false
 })
+
+
+function useWindowSize() {
+	const [windowSize, setWindowSize] = useState({
+	  width: undefined,
+	  height: undefined,
+	});
+  
+	useEffect(() => {
+	  function handleResize() {
+		setWindowSize({
+		  width: window.innerWidth,
+		  height: window.innerHeight,
+		});
+	  }
+	  window.addEventListener("resize", handleResize);
+	  handleResize();
+	  
+	  return () => window.removeEventListener("resize", handleResize);
+	}, []);
+	return windowSize;
+}

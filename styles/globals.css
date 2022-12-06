@@ -150,7 +150,7 @@ button:focus:not(:focus-visible) {
 	flex-direction: column;
 	align-items: center;
 	margin-top: 14vh;
-	margin-bottom: 14vh;
+	/* margin-bottom: 14vh; */
 	width: 100%;
 	max-width: 1920px;
 	min-height: 85vh;
@@ -187,4 +187,40 @@ hr {
 
 .popup-overlay {
 	background: rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width: 1300px) {
+	.popup-content {
+		width: 800px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.popup-content {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.popup-content {
+		height: 100%;
+		width: 100%;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 550px) {
+
+	#__next {
+		/* display: flex; */
+		/* flex-direction: column; */
+		/* align-items: center; */
+		/* margin-top: 14vh; */
+		/* margin-bottom: 14vh; */
+		/* width: 100%;
+		min-height: 85vh; */
+		padding-right: 5%;
+		padding-left: 5%;
+	}
 }

@@ -5,12 +5,12 @@ import { AnimatePresence } from "framer-motion";
 import React from "react";
 import { ToastContainer } from "react-toastify";
 import dynamic from "next/dynamic";
-import VLibras from 'vlibras-nextjs'
+// import VLibras from 'vlibras-nextjs'
 
 function Page(props) {
 	return (
 		<>
-		  	{process.env.NODE_ENV === "production" && <VLibras forceOnload />}
+		  	{/* {process.env.NODE_ENV === "production" && <VLibras forceOnload />} */}
 			<AnimatePresence exitBeforeEnter>
 				<Navbar page={props.name} />
 				<main>

@@ -2,7 +2,6 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: top;
 	width: 100%;
 	margin: auto;
 	letter-spacing: 2px;
@@ -180,6 +179,7 @@
 	border-bottom: 1px solid var(--color-grey-10);
 	width: 100%;
 }
+
 .paymentType label{
 	display: flex;
 	flex-direction: row;
@@ -253,4 +253,87 @@
 	color: white;
 	background-color: black;
 	border: 1px solid black;
+}
+
+
+@media screen and (max-width: 1000px) {
+	.checkout {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	
+	.checkoutCol {
+		margin-bottom: 5%;
+		width: 100%; 
+	}
+
+	.submit {
+		width: 50%;
+		margin: 0;
+	}
+
+	.formsContainer {
+		align-items: center;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 10%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.checkout {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	
+	.checkoutCol {
+		margin-bottom: 5%;
+		width: 100%; 
+	}
+
+	.submit {
+		width: 50%;
+		margin: 0;
+	}
+
+	.formsContainer {
+		align-items: center;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 10%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.checkout {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	
+	.checkoutCol {
+		margin-bottom: 5%;
+		width: 100%; 
+	}
+
+	.submit {
+		width: 50%;
+		margin: 0;
+	}
+
+	.tableRow {
+		font-size: 14px;
+	}
+
+	.formsContainer {
+		align-items: center;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 10%;
+	}
 }
