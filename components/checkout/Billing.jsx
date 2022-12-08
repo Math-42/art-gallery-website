@@ -5,7 +5,7 @@ export default function Billing() {
 	return (
 		<>
 			<div className={styles.formsContainer}>
-				<h1>Endereço de entrega</h1>
+				<h2>Endereço de entrega</h2>
 
 				<div className={styles.formsItem}>
 					<label>NOME

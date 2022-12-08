@@ -6,7 +6,7 @@ export default function Order({orders,subtotal,shipment}) {
 	return (
 		<>
 			<div className={styles.formsContainer}>
-				<h1>Resumo do Pedido</h1>
+				<h2>Resumo do Pedido</h2>
 				<div className={styles.orderTable}>
 					<div className={styles.tableHeader}>
 						<p>Produto</p>

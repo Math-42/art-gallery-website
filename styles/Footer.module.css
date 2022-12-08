@@ -1,6 +1,6 @@
 .footer {
     display: flex;
-	position:absolute;
+	/* position: absolute; */
 	bottom: 0;
     justify-content: space-between;
 	align-items: center;
@@ -81,6 +81,32 @@
 }
 
 @media screen and (max-width: 960px) {
+    .footerData {
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5em 6em 1.5em 6em;
+    }
+
+    .footerLeftSide {
+        flex-direction: column;
+    }
+
+    .footerRightSide {
+        margin-top: 1.5em;
+    }
+
+    .languageSelector ul {
+        margin-top: 24px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 550px) {
     .footerData {
         text-align: center;
     }
