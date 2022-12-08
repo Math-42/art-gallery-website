@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useRef } from "react";
 import Link from "next/link"
 import styles from 'styles/Login.module.css'
 import GoogleButton from 'react-google-button'
 
-export default function LoginForms({ link }) {
+export default function LoginForms({ link, func, inputRef }) {
+
 	return (
 		<>
-			<div className={styles.formsContainter}>
+			<div className={styles.loginFormsContainter} ref={inputRef}>
 				<div className={styles.title}>
-					<h1>Login</h1>
+					<h2>Login</h2>
 				</div>
 				<div className={styles.loginbts}>
 					<div>
@@ -27,11 +28,16 @@ export default function LoginForms({ link }) {
 								<input type="submit" value="ENTRAR" className={styles.submit} />
 							</Link>
 						</div>
+
 					</div>
 					<hr className={styles.horizontalSeparator} />
 					<Link href={`${link}`}>
 						<GoogleButton />
 					</Link>
+
+					<div className={styles.formsItemChangeState} onClick={() => func('login')}>
+							<input type="submit" value="CADASTRO" className={styles.submit} />
+					</div>
 				</div>
 			</div>
 		</>

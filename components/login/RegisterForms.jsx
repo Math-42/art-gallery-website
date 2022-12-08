@@ -1,13 +1,13 @@
-import React from "react";
+import React, { Component } from "react";
 import Link from "next/link"
 import styles from 'styles/Login.module.css'
 
-export default function RegisterForms({link}) {
+export default function RegisterForms({link,inputRef,func}) {
 	return (
 		<>
-            <div className={styles.formsContainter}>
+            <div className={styles.cadastroFormsContainter} ref={inputRef}>
                 <div className={styles.title}>
-                    <h1>Cadastro</h1>
+                    <h2>Cadastro</h2>
                 </div>
                 <div className={styles.loginbts}>
                     <div>
@@ -36,6 +36,11 @@ export default function RegisterForms({link}) {
                                 <input type="submit" value="CADASTRAR" className={styles.submit} />
                             </Link> 
                         </div>
+
+                        <div className={styles.formsItemChangeState}>
+                            <input type="submit" value="ENTRAR" className={styles.submit} onClick={() => func('register')} />
+                        </div>
+
                     </div>
                 </div>
             </div>

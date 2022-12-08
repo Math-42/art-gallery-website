@@ -12,9 +12,6 @@
 	line-height: 2;
 }
 
-
-
-
 .cartTable :nth-child(1) {
 	flex: 1;
 }
@@ -70,4 +67,75 @@
 .cartFooter input {
 	height: 3em;
 	margin-right: 1em;
+}
+
+@media screen and (max-width: 768px) {
+	.cartFooter {
+		margin-top: 2em;
+		margin-bottom: 2em;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.cartFooter div {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.cartFooter div :last-child{
+		width: 100%;
+	}
+	
+	.cartFooter input {
+		width: auto;
+		margin-bottom: 1em;
+	}	
+
+	.footerItem {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.cartTable {
+		width: 100%;
+		font-size: 12px;
+	}
+	
+	.cartFooter {
+		margin-top: 1em;
+		margin-bottom: 2em;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.cartFooter div {
+		width: 75%;
+		display:flex;
+		flex-direction: column;
+		margin-bottom: 1em;
+		justify-content: space-between;
+	}
+
+	.cartFooter div :last-child{
+		width: 100%;
+	}
+	
+	.cartFooter input {
+		width: 100%;
+		margin: auto;
+		margin-bottom: 1em;
+	}	
+
+	.cartFooter button{
+		width: 75%;
+	}
+
+	.footerItem {
+		width: 90%;
+	}
 }

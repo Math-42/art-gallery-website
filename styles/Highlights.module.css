@@ -9,3 +9,9 @@
 .container > div {
 	width: 100%;
 }
+
+@media screen and (max-width: 550px) {
+	.container {
+		margin-bottom: 0;
+	}
+}

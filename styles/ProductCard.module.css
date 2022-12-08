@@ -58,3 +58,32 @@
 .cartIcon:hover {
 	color: var(--color-white);
 }
+
+@media only screen and (max-width: 1400px) {
+	.caption h2 {
+		font-size: 1.3rem;
+	}
+	.caption p  {
+		font-size: 1rem;
+	}
+}
+
+
+@media only screen and (max-width: 900px) {
+	.caption h2 {
+		font-size: 0.9rem;
+	}
+	.caption p  {
+		font-size: 0.7rem;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.caption h2 {
+		font-size: 1.3rem;
+	}
+	.caption p  {
+		font-size: 1rem;
+	}
+}
+

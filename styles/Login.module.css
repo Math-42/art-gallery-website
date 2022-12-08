@@ -2,7 +2,6 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: top;
 	background-color: white;
 	border: 1px solid  var(--color-grey-9);
 	width: 100%;
@@ -13,7 +12,12 @@
 	letter-spacing: 2px;
 }
 
-.formsContainter {
+.cadastroFormsContainter {
+	width: 80%;
+	margin-top: 5%;
+}
+
+.loginFormsContainter {
 	width: 80%;
 	margin-top: 5%;
 }
@@ -84,4 +88,94 @@
 	margin: 1em;
 	border: 1px solid  var(--color-grey-9);
 	width: 80%;
+}
+
+.formsItemChangeState {
+	display: none;
+}
+
+@media screen and (max-width: 1300px) {
+	.login {
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.login {
+		width: 100%;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.verticalSeparator {
+		display: none;
+	}
+
+	.login {
+		flex-direction: column;
+		height: fit-content;
+		align-items: center;
+		margin: 0;
+		max-height: 100%;
+		height: 100%;
+		justify-content: flex-start;
+	}
+
+	.cadastroFormsContainter {
+		height: 100%;
+		margin-top: 2%;
+		flex-direction: column;
+		justify-content: center;
+		display: none;
+	}
+
+	.loginFormsContainter {
+		height: 100%;
+		margin-top: 2%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.title{
+		text-align: center;
+		margin-top: 5%;
+	}
+
+	.loginbts {
+		align-items: center;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		margin-bottom: 5%;
+	}
+
+	.formsItem {
+		width: 90%;
+		height: 3rem;
+		margin: auto;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	.horizontalSeparator{
+		margin-top: 0;
+		margin-bottom: 1em;
+		border: 1px solid  var(--color-grey-9);
+		width: 80%;
+	}
+	
+	.formsItemChangeState {
+		display: block;
+		width: 90%;
+		height: 3rem;
+		margin: auto;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
 }
