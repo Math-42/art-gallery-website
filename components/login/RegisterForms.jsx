@@ -33,7 +33,7 @@ export default function RegisterForms({link,inputRef,func}) {
                         </div>
                         <div className={styles.formsItem}>
                             <Link href={`${link}`}>
-                                <input type="submit" value="CADASTRAR" className={styles.submit} />
+                              <input type="submit" value="CADASTRAR" className={styles.submit} onClick={()=>{setProfile("Luiz")}} />
                             </Link> 
                         </div>
 

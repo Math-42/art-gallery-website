@@ -25,7 +25,9 @@ export default function LoginForms({ link, func, inputRef }) {
 						</div>
 						<div className={styles.formsItem}>
 							<Link href={`${link}`}>
-								<input type="submit" value="ENTRAR" className={styles.submit} />
+							  <input type="submit" value="ENTRAR" className={styles.submit} onClick={()=>{
+                                  setProfile("Luiz")
+                              }} />
 							</Link>
 						</div>
 

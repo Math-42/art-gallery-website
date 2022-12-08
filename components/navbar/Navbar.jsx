@@ -1,5 +1,5 @@
 import Logo from "components/logo/Logo";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import styles from 'styles/navbar.module.css'
 import Navlink from "./Navlink";
 import Popup from 'reactjs-popup';
@@ -7,7 +7,7 @@ import Login from "components/login/Login";
 import { RiSearchLine } from "react-icons/ri";
 import { GiHamburgerMenu } from "react-icons/gi"
 export default function Navbar(props) {
-	const menuRef = useRef(null);	
+	const menuRef = useRef(null);
 	const teste = (e) => {
 		console.log(e.currentTarget)
 		console.log(menuRef.current.style.top)
@@ -22,6 +22,7 @@ export default function Navbar(props) {
 		}
 	}
 
+    const [profile,setProfile] = useState("Perfil");
 	return (
 		<>
 			<div className={styles.container}>
@@ -69,10 +70,10 @@ export default function Navbar(props) {
 
 					<Popup trigger={
 						<div className={styles.navlinks}>
-							<a>Perfil</a>
+							<a>{profile}</a>
 						</div>
 					} modal>
-						<Login link=''></Login>
+		<Login setProfile={setProfile} link={props.page}></Login>
 					</Popup>
 
 					<Navlink currPage={props.page} text="carrinho" link="cart" />

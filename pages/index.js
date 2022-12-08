@@ -22,7 +22,7 @@ function Home() {
 
 				<hr />
 				<div className={styles.artist}>
-					<img src='./assets/artist.jpg'/>
+					<img src='./assets/artist.jpg' alt="Alto retrato do artista Gustave Coubert sentado com o braço sobre um livro"/>
 					<div>
 						<h1>
 							Gustave Coubert
