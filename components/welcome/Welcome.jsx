@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "styles/Welcome.module.css"
 
-export default function Welcome({ welcome, description, image }) {
+export default function Welcome({ welcome, description, image, alt }) {
 	return (
 		<>
 			<div className={styles.container}>
@@ -9,7 +9,7 @@ export default function Welcome({ welcome, description, image }) {
 					{welcome}
 				</h1>
 				<div className={styles.figure}>
-					<img src={image} alt="" />
+					<img src={image} alt={alt} />
 					<div className={styles.caption}>
 						<h2>{description.title}</h2>
 						<p>{description.subtitle}</p>

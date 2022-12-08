@@ -12,10 +12,13 @@ function Home() {
 			<Page name="">
 				<Welcome welcome="A melhor curadoria de arte para sua casa, escritório e coleção."
 					description={{
-						title: "teste",
+						title: "Gustave Coubert",
 						subtitle: "Artista em foco"
 					}}
-					image="./assets/highlight.jpg" />
+					image="./assets/highlight.jpg"
+
+              		alt= "Obra do artista em foco, uma multidão, em um velório"
+                />
 
 				<hr />
 				<div className={styles.artist}>

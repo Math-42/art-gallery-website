@@ -11,6 +11,7 @@ function ProductCard({
 	name,
 	images,
 	artist,
+    description,
 	year
 }) {
 	const notify = () => {
@@ -30,7 +31,7 @@ function ProductCard({
 			<div className={styles.figure}>
 				<Link href={`/${name}`}>
 					<a>
-						<img src={images.thumbnail} alt="" />
+						<img src={images.thumbnail} alt={description} />
 						<motion.figcaption className={styles.caption} variants={captionAnimation}>
 							<h2>{name}</h2>
 							<p>{`${artist.name} - ${year}`}</p>

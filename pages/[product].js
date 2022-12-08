@@ -37,7 +37,7 @@ function Gallery(props) {
 					</div>
 					<hr />
 					<div className={styles.productDisplay}>
-						<img src={`${product.images.gallery}`} />
+					  <img src={`${product.images.gallery}`} alt={product.description} />
 						<article>
 							<p>{product.description}</p>
 							<p className={styles.priceTag}><FaTags /> {" " + `${Math.sqrt(product.year * 100).toFixed(2)} R$`}</p>
