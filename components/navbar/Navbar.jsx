@@ -47,6 +47,7 @@ export default function Navbar(props) {
 					</Popup>
 
 					<Navlink currPage={props.page} text="carrinho" link="cart" />
+					<Navlink currPage={props.page} text="FAQ" link="faq" />
 				</div>
 				<a className={styles.hamburger} onClick={teste}>
 					<GiHamburgerMenu></GiHamburgerMenu>
